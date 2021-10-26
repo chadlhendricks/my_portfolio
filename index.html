@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chad Project</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
     <!-- NAVIGATION BAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" style="">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" style="background-color: rgba(0, 0, 0, 0.103);">
             <div class="container-fluid">
               <a class="navbar-brand" href="#landing"><img src="./3635d825-81d0-496d-bad4-64305d4a8393-profile_image-70x70.png" width="120%" height="120%"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,8 +38,9 @@
             </div>
           </nav>         
     </header>
+
     <!-- LANDING PAGE -->
-    
+
     <section class="landing" id="landing"
     style=" background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgb(20, 0, 0)),
@@ -46,7 +48,6 @@
     width: 100%;
     height: 100vh;
     padding: 20px;
-    padding-top: 20%;
     background-size: cover;
     background-attachment: fixed;
     font-family: Nunito, sans-serif;
@@ -56,36 +57,96 @@
         <div class="container-fluid" 
         style="
         display: flex;
+        position: absolute;
+        flex-flow: row;
         text-align: center;
         justify-content: center;
         ">
-            <div class="col-6">
-                <h1 style="font-size: 60px;"><strong>Chad Liam Hendricks</strong></h1>
-                <h2 style="font-size: 30px;"><strong>Professional Web Developer</strong></h2>
+            <div class="col-6" style="padding-top: 18%;">
+                <h1 style="font-size: 60px; color: red;"><strong>Chad Liam Hendricks</strong></h1><br>
+                <h2 class="text-secondary" style="font-size: 30px;"><strong>Professional Web Developer</strong></h2><br>  
+                <button type="submit" style="background-color: transparent; border: none"><i class="bi bi-linkedin" style="font-size: 40px; color: red; border: none;"></i></button>
+                <button type="submit" style="background-color: transparent; border: none"><i class="bi bi-instagram" style="font-size: 40px; color: red; border: none"></i></button>
+                <button type="submit" style="background-color: transparent; border: none"><i class="bi bi-youtube" style="font-size: 40px ;color: red; border:none"></i></button>
             </div>
-    
-            <div class="col-6">
-                <img src="./56786133_2624670580895919_2534469396894580736_n.jpg" 
-                style="height: 300px; 
-                width: 300px;
-                border-radius: 25px;
-                " alt="">  
+
+            <!-- MY PICTURE -->
+            <div>
+                  <img src="./thurs2.png" style="height: 950px; float: top;" alt="">
             </div>
+
         </div>
 
     </section>  
 
     <!-- ABOUT -->
+
     <section class="About" id="About"
     style="
     width: 100%;
     height: 100vh;
     background-size: cover;
-    color: white;
+    color: grey;
     padding: 20px;
-    padding-top: 20%;
+    padding-top: 7%;
+    text-align: center;
     font-family: Nunito, sans-serif;
-    font-style: bold;">
+    font-style: bold;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3)
+    ">
+
+    <div>
+      <h1 class="headings">About</h1><br>
+      <p>hdsajfhas sfhasifsaf asfklasfnsafsa asfklafnasfs safkljsafnsaf asfnsalfnbjsadsabldsan dsandsjakdnsad sadnslakjdnsa sadnskladnsa sadnsakldsna</p><br>
+
+      <h2>UI/UX Designer & Web Developer.</h2><br>
+    </div>
+
+    <div class="container-fluid" style="
+    display: flex;
+    position: absolute;
+    flex-flow: row;
+    justify-content: center;
+    padding: 50px;
+    width: 80%;">
+
+      <div class="col-6">
+        <img src="./56786133_2624670580895919_2534469396894580736_n.jpg" style="height: 400px; width: 400px;" alt="">
+      </div>
+
+      <div class="col-6" style="text-align: start; ">
+        <table class="table table-borderless">
+          <tbody>
+            <tr>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i>Birthday: 30 August 1997</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i>Age: 24</td> 
+              <td></td>
+            </tr>
+
+            <tr>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i>Website: WIP</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i>Degree: Master</td>
+              <td></td>
+            </tr>
+
+            <tr>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i>Phone: +123 456 7890</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i>Email: chad@example.com</td>
+            </tr>
+
+            <tr>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i>City: Cape Town, SA</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i>Freelance: Available</td>
+            </tr>
+
+          </tbody>
+         </table>
+        
+      </div>
+
+         
+  
+
 
     </section>
 
@@ -95,11 +156,16 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
-    color: white;
+    color: grey;
+    text-align: center;
     padding: 20px;
-    padding-top: 20%;
+    padding-top: 7%;
     font-family: Nunito, sans-serif;
     font-style: bold;">
+    <div>
+      <h1>Work and Experience</h1>
+    </div>
+
 
     </section>
 
@@ -110,30 +176,33 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
-    color: white;
+    color: grey;
     padding: 20px;
-    padding-top: 20%;
+    padding-top: 7%;
     font-family: Nunito, sans-serif;
-    font-style: bold;">
+    font-style: bold;
+    text-align: center;">
+    <div>
+      <h1>Contact</h1><br>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.267419708802!2d18.490509915213323!3d-33.98566428062424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1635240208445!5m2!1sen!2sza" 
+      style="border:0;  width: 80%; height: 400px;" 
+      allowfullscreen="" 
+      loading="lazy"></iframe>
+
+
+
+    </div>
+
+    <footer>
+
+    </footer>
 
     </section>
 
-
-
-    <section class="firstsection">
-
-
-
-
-    </section>
-
-
-
-
-
+  
 
     <!--JAVASCRIPT BUNDLE-->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
