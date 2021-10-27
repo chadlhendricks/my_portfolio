@@ -11,8 +11,10 @@
 </head>
 <body>
     <header>
+
     <!-- NAVIGATION BAR -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top" style="background-color: rgba(0, 0, 0, 0.103);">
+
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgba(0, 0, 0, 0.616);">
             <div class="container-fluid">
               <a class="navbar-brand" href="#landing"><img src="./3635d825-81d0-496d-bad4-64305d4a8393-profile_image-70x70.png" width="120%" height="120%"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +31,6 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#WorkExp">Work and Education</a>
                   </li>
-
                   <li class="nav-item">
                     <a class="nav-link" href="#Contact">Contact</a>
                   </li>
@@ -46,35 +47,31 @@
     linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgb(20, 0, 0)),
     url(https://picsum.photos/1920/1080?grayscale);
     width: 100%;
-    height: 100vh;
-    padding: 20px;
     background-size: cover;
     background-attachment: fixed;
     font-family: Nunito, sans-serif;
     font-style: bold;
     color: white;">
     
-        <div class="container-fluid" 
-        style="
-        display: flex;
-        position: absolute;
-        flex-flow: row;
-        text-align: center;
-        justify-content: center;
-        ">
-            <div class="col-6" style="padding-top: 18%;">
-                <h1 style="font-size: 60px; color: red;"><strong>Chad Liam Hendricks</strong></h1><br>
-                <h2 class="text-secondary" style="font-size: 30px;"><strong>Professional Web Developer</strong></h2><br>  
-                <button type="submit" style="background-color: transparent; border: none"><i class="bi bi-linkedin" style="font-size: 40px; color: red; border: none;"></i></button>
-                <button type="submit" style="background-color: transparent; border: none"><i class="bi bi-instagram" style="font-size: 40px; color: red; border: none"></i></button>
-                <button type="submit" style="background-color: transparent; border: none"><i class="bi bi-youtube" style="font-size: 40px ;color: red; border:none"></i></button>
+        <div class="container-fluid" >
+          <div class="row">
+            
+            <!-- LA -->
+           <div class="col-sm-6" style="padding-top: 18%; text-align: center;">
+               <h1 style="font-size: 60px; color: crimson;"><strong>Chad Liam Hendricks</strong></h1><br>
+               <h2 class="text-secondary" style="font-size: 30px;"><strong>Professional Web Developer</strong></h2><br>
 
-            </div>
 
-            <!-- MY PICTURE -->
-            <div>
-                  <img src="./thurs2.png" style="height: 950px; float: top;" alt="">
-            </div>
+               <a href="https://www.linkedin.com/in/chad-hendricks-a7984921b/"><i class="bi bi-linkedin" style="font-size: 40px; color: red; border: none;"></i></a>
+               <a href="https://www.instagram.com/chadlhendricks/"><i class="bi bi-instagram" style="font-size: 40px; color: red; border: none"></i></a>
+               <a href="https://www.youtube.com/watch?v=QK8bF2e1niM"><i class="bi bi-youtube" style="font-size: 40px ;color: red; border:none"></i></a>
+           </div>
+
+           <!-- MY PICTURE -->
+           <div class="col-sm-6">
+                 <img src="./thurs2.png" style="height: auto; width: 100%; object-fit: cover;" id="thursimg" alt="">
+           </div>
+          </div>
 
         </div>
 
@@ -84,8 +81,9 @@
 
     <section class="About" id="About"
     style="
-    width: 100%;
+    width: 80%;
     height: 100vh;
+    margin: auto;
     background-size: cover;
     color: grey;
     padding: 20px;
@@ -97,8 +95,18 @@
     ">
 
     <div>
-      <h1 class="headings" style="color: red;">About</h1><br>
-      <p>hdsajfhas sfhasifsaf asfklasfnsafsa asfklafnasfs safkljsafnsaf asfnsalfnbjsadsabldsan dsandsjakdnsad sadnslakjdnsa sadnskladnsa sadnsakldsna</p><br>
+      <h1 class="headings">About</h1><br>
+      <p>I am a hard-working, inquisitive and creative-thinking individual. I always try to stimulate my brain,
+        learn new things and be productive. Furthermore, I enjoy helping others and working together to solve
+        issues. I&#39;m introverted, but I try to push myself out of my comfort zone so that I can experience new
+        people and things.</p>
+
+        <p>Where did your passion for coding start:
+          My passion for the tech industry came from video games. I was always curious when I went into game
+          directory files and saw things like sprites, models and background images and wondered how it was
+          pieced together to make the games I enjoyed. Eventually, I started watching videos on YouTube,
+          people showing how they would make games and websites from scratch and I figured that it was
+          something I&#39;d enjoy doing.</p>
 
       <h2>UI/UX Designer & Web Developer.</h2><br>
     </div>
@@ -109,35 +117,33 @@
     flex-flow: row;
     justify-content: center;
     padding: 50px;
-    width: 80%;">
+    width: 90%;">
 
       <div class="col-6">
-        <img src="./56786133_2624670580895919_2534469396894580736_n.jpg" style="height: 400px; width: 400px;" alt="">
+        <img src="./Chad1.JPG" style="height: 400px; width: 600px;" alt="">
       </div>
 
-      <div class="col-6" style="text-align: start; ">
+      <div class="col-6" style="text-align: start; font-size: 18px; overflow-x:auto;">
         <table class="table table-borderless">
           <tbody>
             <tr>
-              <td><i class="bi bi-chevron-right" style="color: red;"></i>Birthday: 30 August 1997</td>
-              <td><i class="bi bi-chevron-right" style="color: red;"></i>Age: 24</td> 
-              <td></td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i><strong>Birthday:</strong> 30 August 1997</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i><strong>Age:</strong> 24</td> 
             </tr>
 
             <tr>
-              <td><i class="bi bi-chevron-right" style="color: red;"></i>Website: WIP</td>
-              <td><i class="bi bi-chevron-right" style="color: red;"></i>Degree: Master</td>
-              <td></td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i><strong>GitHub:</strong>https://github.com/chadlhendricks</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i><strong>LinkedIn:</strong>https://www.linkedin.com/in/chad-hendricks-a7984921b/</td>
             </tr>
 
             <tr>
-              <td><i class="bi bi-chevron-right" style="color: red;"></i>Phone: +123 456 7890</td>
-              <td><i class="bi bi-chevron-right" style="color: red;"></i>Email: chad@example.com</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i><strong>Phone:</strong>+27670202386</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i><strong>Email:</strong>chadlhendricks@gmail.com</td>
             </tr>
 
             <tr>
-              <td><i class="bi bi-chevron-right" style="color: red;"></i>City: Cape Town, SA</td>
-              <td><i class="bi bi-chevron-right" style="color: red;"></i>Freelance: Available</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i><strong>Location:</strong>Plumstead, Cape Town</td>
+              <td><i class="bi bi-chevron-right" style="color: red;"></i><strong>Freelance:</strong> Available</td>
             </tr>
 
           </tbody>
@@ -155,7 +161,7 @@
     <section class="WorkExp" id="WorkExp"
     style="
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-size: cover;
     color: grey;
     text-align: center;
@@ -164,7 +170,67 @@
     font-family: Nunito, sans-serif;
     font-style: bold;">
     <div>
-      <h1>Work and Experience</h1>
+      <h1 class="headings">Work and Experience</h1><br>
+
+      <h2>Work Experience</h2><br>
+      <p>Amazon Development Centre, June 2018-August 2021.<br>
+        Account Management</p><br>
+
+      <h2>Educational Background:</h2><br>  
+
+      <p>
+        Matriculated in 2015, Plumstead High School<br>
+        Damelin I. T course (Started beginning of 2020, but due to COVID-19, their campuses closed down,
+        and I didn&#39;t resume.)</p><br>
+
+      <h2>Soft Skills</h2><br>
+      <p>Customer Service experience<br>
+        Problem-solving<br>
+        Teamwork<br>
+        Attention to detail<br>
+        Passion for technology<br>
+        Adaptable
+      </p><br>
+
+      <h2>Technical Skills</h2><br>
+      <p>Photoshop<br>
+        Adobe Animate<br>
+        Microsoft Office: Word, Excel, PowerPoint<br>
+        HTML<br>
+        CSS<br>
+      </p>
+    </div>
+
+    <!-- CAROUSEL -->
+
+    <div style="text-align: center; width: 80%; justify-content: center; margin-left: 150px;">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./Chad1.JPG" class="d-block w-100" style="border-radius: 50%;" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     </div>
 
 
@@ -184,19 +250,95 @@
     font-style: bold;
     text-align: center;">
     <div>
-      <h1>Contact</h1><br>
+      <h1 class="headings">Contact</h1><br>
 
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.267419708802!2d18.490509915213323!3d-33.98566428062424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc433bedd50e81%3A0x9c746d268c8e0ad9!2sLife%20Choices!5e0!3m2!1sen!2sza!4v1635240208445!5m2!1sen!2sza" 
       style="border:0;  width: 80%; height: 400px;" 
       allowfullscreen="" 
-      loading="lazy"></iframe>
+      loading="lazy"></iframe><br><br>  
 
-
+      <h2>Need to reach out? Contact me!</h2><br>
 
     </div>
 
-    <footer>
 
+    <div class="row">
+
+      <div class="col-6">
+        <p>Test1</p><br>
+        <p>Test2</p><br>
+        <p>Test3<br></p>
+
+
+      </div>
+
+
+      <div class="contactform col-6">
+        <form action="https://formspree.io/f/xzbywdvz" method="POST">
+          <table id="tableform">
+            <tr>
+              <label>
+                <input type="text" name="fname" placeholder="Enter your first name."> 
+              </label><br><br>
+              </tr>
+          
+              <tr>
+              <label>
+                <input type="text" name="lname" placeholder="Enter your last name.">
+              </label><br><br>
+              </tr>
+          
+              <tr>
+              <label>
+                <input type="email" name="emaila" placeholder="Enter your email address">
+              </label><br><br>
+              </tr>
+          
+              <tr>
+              <label> 
+                <input type="text" name="pnumb" placeholder="Enter your phone number">
+              </label><br><br>
+             </tr>
+          
+             <tr>
+              <label>
+                <input type="text" name="message" placeholder="Enter your message"></textarea"> 
+              </label><br><br><br>
+             </tr>
+
+             <!-- your other form fields go here -->
+
+             <button type="submit" id="sendbut">Send</button>
+
+            <button type="reset" id="resetbutt">Reset</button>
+         </table>
+        </form>
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- FOOTER-->
+
+    <footer class="py-3 my-4" style="background-color: rgba(128, 128, 128, 0.26);">
+      <ul class="nav justify-content-center ">
+        <li class="nav-item"><a href="#landing" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#About" class="nav-link px-2 text-muted">About</a></li>
+        <li class="nav-item"><a href="#WorkExp" class="nav-link px-2 text-muted">Work and Education</a></li>
+        <li class="nav-item"><a href="#Contact" class="nav-link px-2 text-muted">Contact</a></li>
+      </ul>
+      <a href="https://www.linkedin.com/in/chad-hendricks-a7984921b/"><i class="bi bi-linkedin" style="font-size: 40px; color: black; border: none;"></i></a>
+      <a href="https://www.instagram.com/chadlhendricks/"><i class="bi bi-instagram" style="font-size: 40px; color: black; border: none"></i></a>
+      <a href="https://www.youtube.com/watch?v=QK8bF2e1niM"><i class="bi bi-youtube" style="font-size: 40px ;color: black; border:none"></i></a>
+
+
+
+      
+      <p class="text-center text-muted border-top pb-5 mb-3">© 2021 LifeChoices, Coding Academy</p>
     </footer>
 
     </section>
@@ -204,6 +346,6 @@
   
 
     <!--JAVASCRIPT BUNDLE-->
-    <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.js.map" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
