@@ -7,8 +7,9 @@
 .navbar-light .navbar-nav .nav-link{
     font-size: 25px;
     color: whitesmoke;
-    padding: 25px;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3)
+    padding: 20px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    width: 100%;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
@@ -23,7 +24,14 @@
   color: crimson;
 }
 
+@media all and (max-width: 832px){
+  #thursimg{
+    display: none;
+  }
 
+  *{border: none;
+  }
+}
 
 @media all and (max-width: 850px){
   #thursimg{
@@ -43,7 +51,7 @@
 }
 
 .nav-link:hover{
-  color: red;
+  color: crimson;
 
 }
 
@@ -52,6 +60,43 @@
     display: none;
   }
 }
+
+.buttons{
+  border-radius: 65%;
+  border: none;
+  padding: 10px;
+  background-color: rgba(220, 20, 60, 0.164);
+}
+
+
+
+#contactbutt1{
+  color: crimson; 
+  font-size: 30px;
+  
+}
+
+#contactbutt2{
+  color: crimson; font-size: 30px;
+}
+
+#contactbutt3{
+  color: crimson; font-size: 30px;
+}
+
+#contactbutt1:hover{}
+
+
+#contactbutt2:hover{}{}
+
+
+#contactbutt3:hover{}
+
+.d-block{
+  border-radius: 50%;
+}
+
+
 
 
 
