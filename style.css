@@ -102,67 +102,121 @@
 
 @keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
 
+.headings{
+  -webkit-animation: heartbeat 5s ease-in-out infinite both;
+	        animation: heartbeat 5s ease-in-out infinite both;
+            animation-iteration-count:infinite;
+
+  }
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+
 
 
 
 
 /* MEDIA QUERIES */
 
-@media all and (max-width: 585px){
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 670px) { 
   #thursimg{
-    display: none;
-  }
+    display: none;}
+}
 
-  #landingsection{margin-left: 5%;}
+/*  */
+@media (max-width: 540px) {
+
+ }
+
+@media (max-width: 720px) {
 
 }
 
-@media all and (max-width: 575px){
- 
-  #landingsection{margin-left: 0%;}
+@media (max-width: 960px) {
 
 }
 
-@media all and (max-width: 832px){
-  #thursimg{
-    display: none;
-  }
-}
-
-@media all and (max-width: 850px){
-  #thursimg{
-    display: none;
-  }
-}
-
-@media all and (max-width: 919px){
-  #thursimg{
-    display: none;
-  }
-}
-
-
-/* BURGER MENU ACTIVATES OVER HERE */
-
-@media all and (max-width: 991px){
+@media (max-width: 1140px) {
 
 }
 
-@media all and (max-width: 1002px){
-  #thursimg{
-    display: none;
-  }
-  #landingsection{margin-left: 25%;}
-}
 
-@media all and (max-width: 1557px){
-  #landingpagerows{
-    flex-direction: column;
-    margin: 20%;
-  }
-  
-}
-
+xs
+<576px	sm
+≥576px	md
+≥768px	lg
+≥992px	xl
+≥1200px	xxl
+≥1400px
 
 
 

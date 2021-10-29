@@ -48,10 +48,10 @@
     <section class="landing" id="landing"
     style=" background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.322), rgb(20, 0, 0)),
-    url(./images/backgroundimage.jpg);
+    url(./images/backgroundimage-1.png);
     width: 100%;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     font-family: Nunito, sans-serif;
     font-style: bold;
     color: white;
@@ -96,13 +96,15 @@
 
    <h1 class="headings">About</h1><br>
 
+   <div class="container-fluid">
+
    <div class="row" id="landingpagerows" style=" padding-top: 20px;">
 
-    <div class="col-6">
+    <div class="col-sm-6 col-md-6 col-lg- col-xl- col-xxl-" id="aboutpic">
       <img src="./images/chad.png" style="height: 400px; width: 600px; float: left;" alt="">
     </div>
 
-    <div class="col-6">
+    <div class="col-sm-6 col-md-6 col-lg- col-xl- col-xxl-" id="aboutparag">
       <p style="color: crimson; text-align: start; font-size: 20px;">BIO</p>
       <p style="text-align: start; font-size: 20px;">I am a hard-working, inquisitive and creative-thinking individual. I always try to stimulate my brain,
         learn new things and be productive. Furthermore, I enjoy helping others and working together to solve
@@ -117,6 +119,9 @@
           people showing how they would make games and websites from scratch and I figured that it was
           something I&#39;d enjoy doing.</p>
     </div>
+
+    </div>
+  </div>
 
 
 
@@ -178,14 +183,14 @@
     <div style="border-radius: 25px; border-width: 10px; border-style;">
       <div class="row" style="text-align: start; "> 
 
-        <div class="col-6">
+        <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl">
           <h2>Work Experience:</h2><br>
           <p class="paragraphs">Amazon Development Centre<br>
             Duration: June 2018-August 2021.<br>
             Role: Account Management Specialist</p><br>
         </div>
   
-        <div class="col-6">
+        <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl">
           <h2 >Educational Background:</h2><br>  
           <p class="paragraphs">
             Matriculated in 2015, Plumstead High School<br>
@@ -197,7 +202,7 @@
       <h1 class="headings">Skills</h1><br>
   
       <div class="row">
-        <div class="col-6" style="text-align: start;">
+        <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl" style="text-align: start;">
           <h2>Soft Skills:</h2><br>
           <p class="paragraphs">Customer Service experience<br>
              Problem-solving<br>
@@ -208,7 +213,7 @@
         </p>
         </div>
   
-        <div class="col-6" style="text-align: start; font-size: 20px;">
+        <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl" style="text-align: start; font-size: 20px;">
           <h2 style="text-align: start;">Technical Skills:</h2><br>
 
           <i class="bi bi-chevron-right" style="color: red;"></i>HTML<br>
@@ -272,7 +277,7 @@
 
   <div class="row" style="text-align: center;">
 
-    <div class="col-4">
+    <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl">
       <div class="card" style="width: 100%; border: none;">
         <img class="card-img-top" src="./images/bootstrap.png" alt="Card image cap" style="height: 300px;">
         <div class="card-body">
@@ -288,7 +293,7 @@
       </div>
 
     </div>
-    <div class="col-4">
+    <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl">
       <div class="card" style="width: 100%; border: none;">
         <img class="card-img-top" src="./images/mario.png" alt="Card image cap" style="height: 300px;">
         <div class="card-body">
@@ -301,7 +306,7 @@
       </div>
 
     </div>
-    <div class="col-4">
+    <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl">
       <div class="card" style="width: 100%; border: none;">
         <img class="card-img-top" src="./images/youtube.png" alt="Card image cap" style="height: 300px;">
         <div class="card-body">
@@ -424,26 +429,25 @@
 
     <div class="row" style="margin: auto; width: 100%; text-align: start; background-color: rgba(128, 128, 128, 0.233);" >
 
-      <div class="col-6">
+      <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl">
 
 
         <ul style="list-style-type:none; padding-top: 20px;"> 
+
           <li>
-            <button type="button" class="buttons">
-              <i class="bi bi-geo-alt" id="contactbutt1"></i>
-            </button><p>Location</p><br>
+            <button type="button" class="buttons"><i class="bi bi-geo-alt" id="contactbutt1"></i></button><strong>   Location:</strong> 314 Imam Haron Rd, Lansdowne, Cape Town, 7780
           </li>
 
           <li>
             <button type="button" class="buttons">
               <i class="bi bi-envelope" id="contactbutt2"></i>
-            </button><br>
+            </button><strong>   Email:</strong> chad@test<br> 
           </li>
 
           <li>
             <button type="button" class="buttons">
               <i class="bi bi-phone" id="contactbutt3"></i>
-            </button><br>
+            </button><strong>   Phone:</strong> +27 21 555 5455<br>
           </li>
           
         </ul>
@@ -452,7 +456,7 @@
 
       <!--FORM -->
       
-      <div class="contactform col-6" style="font-size: 20px;" >
+      <div class="contactform col-sm-6" style="font-size: 20px;" >
         <form action="https://formspree.io/f/xzbywdvz" method="POST">
           
           <div class="row">
@@ -502,11 +506,11 @@
    
       <div class="row">
 
-        <div class="col-6">
+        <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl">
           <p class="text-center text-muted border-top" style="padding-top: 10px;">© 2021 LifeChoices, Coding Academy</p>
         </div>
 
-        <div class="col-6" style="margin: auto; text-align: center;">
+        <div class="col-sm-auto col-md-auto col-lg- col-xl- col-xxl" style="margin: auto; text-align: center;">
           <a href="https://www.linkedin.com/in/chad-hendricks-a7984921b/" target="_blank" i class="bi bi-linkedin" style="font-size: 30px; color: grey; border: none;"></i></a>
           <a href="https://www.instagram.com/chadlhendricks/" target="_blank"><i class="bi bi-instagram" style="font-size: 30px; color: grey; border: none"></i></a>
           <a href="https://www.youtube.com/channel/UC6o2LRwKRi4NplqyGlrhqjw" target="_blank"><i class="bi bi-youtube" style="font-size: 30px ;color: grey; border:none"></i></a>
