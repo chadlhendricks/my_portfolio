@@ -106,8 +106,6 @@
 
 
 
-
-
 /* MEDIA QUERIES */
 
 @media all and (max-width: 585px){
@@ -116,6 +114,12 @@
   }
 
   #landingsection{margin-left: 5%;}
+
+}
+
+@media all and (max-width: 575px){
+ 
+  #landingsection{margin-left: 0%;}
 
 }
 
