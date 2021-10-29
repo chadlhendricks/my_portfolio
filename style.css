@@ -20,46 +20,37 @@
     border-right: none;
     color: crimson;}
 
+.customtoggler{}
+
+#abouttable{
+  
+}
+
+.tableright{
+  margin-left: 500px;
+}
+
+
+
 .headings{
+  padding-bottom: 2%;
   color: crimson;
+  border-style: solid;
+  border-top: crimson;
+  border-left: none;
+  border-right: none;
 }
 
-@media all and (max-width: 832px){
-  #thursimg{
-    display: none;
-  }
-
-  *{border: none;
-  }
+.subheadings{
+  padding-top: 3%;
 }
 
-@media all and (max-width: 850px){
-  #thursimg{
-    display: none;
-  }
+.paragraphs{
+  font-size: 20px;"
 }
 
-@media all and (max-width: 991px){
-  .navbar-toggler-icon{
-    color: white;
-  }
 
-
-  .navbar .navbar-expand-lg .navbar-light .fixed-top{
-    background-color: black;
-  }
-}
-
-.nav-link:hover{
-  color: crimson;
-
-}
-
-@media all and (max-width: 1002px){
-  #thursimg{
-    display: none;
-  }
-}
+/* BUTTONS AND THINGS */
 
 .buttons{
   border-radius: 65%;
@@ -93,8 +84,83 @@
 #contactbutt3:hover{}
 
 .d-block{
-  border-radius: 50%;
+  border-radius: 25px;
 }
+
+.w-50{border-radius: 40%;}
+
+
+/* ANIMATION, (ANIMATION TEMPLATES FROM ANIMISTA) */
+
+#landingsection{animation:slide-in-left 3s cubic-bezier(.25,.46,.45,.94) both}
+
+@keyframes slide-in-left{0%{transform:translateX(-1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
+
+
+#thursimg{animation:slide-in-right 3s cubic-bezier(.25,.46,.45,.94) both}
+
+@keyframes slide-in-right{0%{transform:translateX(1000px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media all and (max-width: 585px){
+  #thursimg{
+    display: none;
+  }
+
+  #landingsection{margin-left: 5%;}
+
+}
+
+@media all and (max-width: 832px){
+  #thursimg{
+    display: none;
+  }
+}
+
+@media all and (max-width: 850px){
+  #thursimg{
+    display: none;
+  }
+}
+
+@media all and (max-width: 919px){
+  #thursimg{
+    display: none;
+  }
+}
+
+
+/* BURGER MENU ACTIVATES OVER HERE */
+
+@media all and (max-width: 991px){
+
+}
+
+@media all and (max-width: 1002px){
+  #thursimg{
+    display: none;
+  }
+  #landingsection{margin-left: 25%;}
+}
+
+@media all and (max-width: 1557px){
+  #landingpagerows{
+    flex-direction: column;
+    margin: 20%;
+  }
+  
+}
+
+
+
 
 
 
