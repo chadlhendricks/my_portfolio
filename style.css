@@ -8,9 +8,9 @@
 /* NAV BAR */
 
 .navbar-light .navbar-nav .nav-link{
-    font-size: 25px;
+    font-size: 20px;
     color: whitesmoke;
-    padding: 20px;
+    padding: 5px;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
     width: 100%;
 }
@@ -31,6 +31,10 @@
   border: 1px solid red;
 }
 
+.nav-item{
+  padding-right: 10px;
+}
+
 
 /* CAROUSEL CODE */
 
@@ -39,12 +43,6 @@
 
 .carousel-control-next-icon {
   filter: invert(100%);}
-
-.tableright{
-  margin-left: 500px;
-}
-
-
 
 .headings{
   padding-bottom: 2%;
@@ -466,6 +464,9 @@ body {
 @media (max-width: 670px) { 
   #thursimg{
     display: none;}
+  #landingsection{
+
+  }
 }
 
 /*  */
